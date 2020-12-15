@@ -1,0 +1,309 @@
+<html>
+<head>
+<style>
+<!--
+.styling{
+background-color:#d09694;
+color:black;
+font: bold 18px MS Sans Serif;
+padding: 3px;
+}
+-->
+</style>
+<title>Fazreen Faizon</title>
+</head>
+<body bgcolor="#F0F3F4">
+<embed src="audio/quiettime.mp3" hidden="true" autoplay="true" loop="true"></embed>
+
+<center><img src="gif/hello.gif"></center>
+<br>
+
+<div id="sfcmgxzfcfm4w182b4x3fgul9lpu71mpf5b"></div><script type="text/javascript" src="https://counter8.stat.ovh/private/counter.js?c=mgxzfcfm4w182b4x3fgul9lpu71mpf5b&down=async" async></script><noscript><a href="https://www.freecounterstat.com" title="website counter"><img src="https://counter8.stat.ovh/private/freecounterstat.php?c=mgxzfcfm4w182b4x3fgul9lpu71mpf5b" border="0" title="website counter" alt="website counter"></a></noscript>
+
+<style>
+* {box-sizing: border-box;}
+body {font-family: Default;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+</style>
+</head>
+<body>
+
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="image/header1.png" style="width:100%">
+  <div class="text"></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="image/header2.png" style="width:100%">
+  <div class="text"></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="image/header3.png" style="width:100%">
+  <div class="text"></div>
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+<br>
+<br>
+
+
+<center>
+<span id="digitalclock" class="styling"></span>
+
+<script>
+<!--
+
+/*****************************************
+* LCD Clock script- by Javascriptkit.com
+* Featured on/available at http://www.dynamicdrive.com/
+* This notice must stay intact for use
+*****************************************/
+
+var alternate=0
+
+function show(){
+var clockobj=document.getElementById? document.getElementById("digitalclock") : document.all.digitalclock
+var Digital=new Date()
+var hours=Digital.getHours()
+var minutes=Digital.getMinutes()
+var dn="AM"
+
+if (hours==12) dn="PM" 
+if (hours>12){
+dn="PM"
+hours=hours-12
+}
+if (hours==0) hours=12
+if (hours.toString().length==1)
+hours="0"+hours
+if (minutes<=9)
+minutes="0"+minutes
+
+if (alternate==0)
+clockobj.innerHTML=hours+"<font color='red'> : </font>"+minutes+" "+"<sup>"+dn+"</sup>"
+else
+clockobj.innerHTML=hours+"<font color='pink'> : </font>"+minutes+" "+"<sup>"+dn+"</sup>"
+alternate=(alternate==0)? 1 : 0
+setTimeout("show()",1000)
+}
+window.onload=show
+
+//-->
+</script>
+</center>
+
+
+
+<br>
+<table width="47.64%" height="10%" align="center" cellspacing="5" cellpading="3">
+<tr>
+<td>
+<style>
+body {
+  font-family: Default;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #d09694;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: black;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #fdb8b6;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f0f3f4;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+</style>
+</head>
+<body>
+
+<div class="navbar">
+  <a href="index.html">HOME</a>
+<div class="dropdown">
+    <button class="dropbtn">ABOUT ME 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="bioedu.html">Biodata/Education</a>
+      <a href="experience.html">Experience</a>
+    </div>
+</div>
+<div class="navbar">
+  <a href="family.html">FAMILY</a>
+  <a href="friends.html">FRIENDS</a>
+  <a href="gallery.html">GALLERY</a>
+<div class="dropdown">
+    <button class="dropbtn">FACTS OF ME 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="favmovie.html">Favourite Movie</a>
+      <a href="favsong.html">Favourite Song</a>
+    </div>
+</div>
+</td>
+</tr>
+</table>
+<br>
+
+<pre>                                                            <image src="image/cover.png">
+</pre>
+<br>
+
+<pre>                                                            <image src="gif/me.gif">
+</pre>
+
+<a href="#top"><img src="image/top.png" align="right"></a>
+</body>
+</html>
